@@ -3,13 +3,13 @@
 ## 📁 Repository Structure
 
 ```
-├── README.md                                  ← you are here
-├── labs/                                       ← raw lab notebooks (.ipynb)
+├── README.md                                  
+├── labs/                                        lab notebooks (ipynb)
 │   ├── lab2-fspl-wireless-path-loss.ipynb
 │   ├── lab3-random-forest-traffic-prediction.ipynb
 │   ├── lab4-time-series-forecasting.ipynb
 │   └── lab5-edge-model-optimization.ipynb
-└── docs/                                       ← writeups, documentation, reflections
+└── docs/                                       ←documentation/reflections
     ├── lab2-fspl-wireless-path-loss.md
     ├── lab3-random-forest-traffic-prediction.md
     ├── lab4-time-series-forecasting.md
