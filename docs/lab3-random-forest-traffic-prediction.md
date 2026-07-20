@@ -7,7 +7,7 @@ Telecom operators need to anticipate network traffic loads (measured in Gbps) to
 
 ## Methods and Tools
 - **Tools:** Python, NumPy, Pandas, Matplotlib, scikit-learn (`RandomForestRegressor`)
-- **Data:** A synthetic hourly traffic dataset (Jan–Dec 2023) engineered to reflect realistic patterns — daily cycles, weekly cycles, and a business-hours boost (9 AM–5 PM, weekdays).
+- **Data:** A synthetic hourly traffic dataset (Jan–Dec 2023) engineered to reflect realistic patterns, daily cycles, weekly cycles, and a business-hours boost (9 AM–5 PM, weekdays).
 - **Feature engineering:**
   - `hour`, `day_of_week`, `is_weekend`, `is_business_hours`
   - `traffic_lag_1h` and `traffic_lag_24h` (previous hour and previous day's traffic)
