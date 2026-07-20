@@ -24,4 +24,4 @@ Wireless signal strength weakens as a signal travels farther from its transmitte
 - The resulting curve confirmed the expected shape: a steep loss increase at short range that gradually flattens at longer distances, consistent with the logarithmic term in the FSPL equation.
 
 ## Interpretation
-This lab demonstrated a fundamental telecommunications concept: signal loss is not linear with distance, it is logarithmic. This has real design implications — doubling the distance from a router does not double the loss, but the loss still accumulates quickly at first. Understanding FSPL is foundational for later labs in the course, where AI models are used to predict and manage network traffic and behavior on top of these physical-layer constraints.
+This lab demonstrated a fundamental telecommunications concept: signal loss is not linear with distance, it is logarithmic. 
