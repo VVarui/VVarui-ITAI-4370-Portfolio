@@ -1,6 +1,6 @@
 # ITAI 4370 — Telecommunications Portfolio
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── README.md                                  
@@ -20,7 +20,7 @@
 
 ---
 
-## 🧪 Selected Works / Labs
+## Selected Works / Labs
 
 | Lab | Topic | Key AI/ML Technique | Documentation |
 |---|---|---|---|
@@ -33,14 +33,14 @@ Each documentation page includes: **problem statement → methods and tools → 
 
 ---
 
-## ✍️ Reflective Essays
+## Reflective Essays
 
 1. [How My Understanding of Telecommunications Evolved](docs/reflective-essay-1-evolving-understanding.md)
 2. [Applying AI Concepts to Telecommunications Problems](docs/reflective-essay-2-applying-ai.md)
 
 ---
 
-## 📊 Assessment Artifacts
+## Assessment Artifacts
 
 *Add quizzes, assignments, case studies, or other graded/practical work here as they're completed.*
 
@@ -50,14 +50,14 @@ Each documentation page includes: **problem statement → methods and tools → 
 
 ---
 
-## 🎯 Skills Improved & Areas for Growth
+## Skills Improved & Areas for Growth
 
 - **Strengthened:** feature engineering for time-series data, evaluating models with appropriate metrics (MSE, R², RMSE), recognizing signs of data leakage/overfitting, understanding accuracy-vs-efficiency tradeoffs in model deployment.
 - **Growth areas:** deeper statistical grounding in ARIMA parameter selection, more hands-on experience with real (non-synthetic) telecom datasets, and exploring additional edge-deployment frameworks (e.g., TensorFlow Lite Micro).
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 
 Python · NumPy · Pandas · Matplotlib · Seaborn · scikit-learn · statsmodels · TensorFlow/Keras
 
