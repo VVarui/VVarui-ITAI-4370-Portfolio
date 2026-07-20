@@ -20,7 +20,7 @@ Wireless signal strength weakens as a signal travels farther from its transmitte
   5. Plotted path loss (dB) versus distance (km) to visualize the relationship.
 
 ## Results
-- Path loss increases logarithmically with distance — for example, loss rose from about **80 dB at 0.1 km** to roughly **94 dB at 0.5 km**, illustrating the sharp early rolloff typical of the inverse-square law underlying FSPL.
+- Path loss increases logarithmically with distance, for example, loss rose from about **80 dB at 0.1 km** to roughly **94 dB at 0.5 km**, illustrating the sharp early rolloff typical of the inverse-square law underlying FSPL.
 - The resulting curve confirmed the expected shape: a steep loss increase at short range that gradually flattens at longer distances, consistent with the logarithmic term in the FSPL equation.
 
 ## Interpretation
