@@ -1,10 +1,4 @@
-# ITAI 4370 — Telecommunications & AI Course Portfolio
-
-*A continuously updated portfolio documenting my learning journey through ITAI 4370, covering telecommunications fundamentals and applied AI/ML techniques.*
-
-> **How to keep this updated:** commit new labs to `labs/`, new writeups to `docs/`, and update the table below each time you add work. That's what makes this a *dynamic* portfolio rather than a one-time submission.
-
----
+# ITAI 4370 — Telecommunications Portfolio
 
 ## 📁 Repository Structure
 
@@ -44,8 +38,6 @@ Each documentation page includes: **problem statement → methods and tools → 
 1. [How My Understanding of Telecommunications Evolved](docs/reflective-essay-1-evolving-understanding.md)
 2. [Applying AI Concepts to Telecommunications Problems](docs/reflective-essay-2-applying-ai.md)
 
-*(Both are first drafts based on the actual lab work — personalize them with your own voice/experience before submitting.)*
-
 ---
 
 ## 📊 Assessment Artifacts
@@ -71,4 +63,4 @@ Python · NumPy · Pandas · Matplotlib · Seaborn · scikit-learn · statsmodel
 
 ---
 
-*Last updated: [update this date each time you commit new work]*
+*Last updated: 7/19/20*
