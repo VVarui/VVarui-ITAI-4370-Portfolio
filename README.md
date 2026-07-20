@@ -9,7 +9,7 @@
 │   ├── lab3-random-forest-traffic-prediction.ipynb
 │   ├── lab4-time-series-forecasting.ipynb
 │   └── lab5-edge-model-optimization.ipynb
-└── docs/                                       ←documentation/reflections
+└── docs/                                       documentation/reflections
     ├── lab2-fspl-wireless-path-loss.md
     ├── lab3-random-forest-traffic-prediction.md
     ├── lab4-time-series-forecasting.md
