@@ -26,11 +26,11 @@ Telecom operators need to anticipate network traffic loads (measured in Gbps) to
 | R² | 0.946 | 0.893 |
 
 **Top predictive features:**
-1. `traffic_lag_1h` (81.6% importance) — traffic one hour ago
+1. `traffic_lag_1h` (81.6% importance) ~ traffic one hour ago
 2. `hour` (7.8%)
 3. `traffic_lag_24h` (3.6%)
 4. `day_of_week` (2.8%)
 5. `traffic_rolling_7d` (2.3%)
 
 ## Interpretation
-The model explained about 89% of the variance in unseen test data (R² = 0.893), showing that traffic is highly autocorrelated — the single best predictor of traffic right now is traffic one hour ago. This is a common and useful insight in telecom forecasting: short-term traffic prediction benefits most from recent history rather than long-term seasonal features. The gap between training R² (0.946) and testing R² (0.893) also shows mild overfitting, a limitation worth addressing (e.g., with regularization or a simpler model) in future iterations.
+The model explained about 89% of the variance in unseen test data (R² = 0.893), showing that traffic is highly autocorrelated, the single best predictor of traffic right now is traffic one hour ago. This is a common and useful insight in telecom forecasting: short-term traffic prediction benefits most from recent history rather than long-term seasonal features. The gap between training R² (0.946) and testing R² (0.893) also shows mild overfitting, a limitation worth addressing (e.g., with regularization or a simpler model) in future iterations.
