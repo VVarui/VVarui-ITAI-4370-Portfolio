@@ -23,8 +23,8 @@ Different forecasting techniques make different tradeoffs between simplicity, in
 | LSTM | MSE = 322.58, MAE = 13.38, RMSE = 17.96 |
 
 ## Interpretation
-The linear regression model's near-perfect R² is a red flag rather than a success — it strongly suggests **data leakage**, most likely because a feature like `ma_3` (a moving average) was computed using information that overlaps with the target value itself. A model that perfectly predicts test data should be treated with suspicion, not celebrated; this is a valuable, realistic lesson about validating feature engineering pipelines rather than trusting a headline metric.
+The linear regression model's near-perfect R² is a red flag rather than a success — it strongly suggests **data leakage**, most likely because a feature like `ma_3` (a moving average) was computed using information that overlaps with the target value itself. A model that perfectly predicts test data should be treated with suspicion. This just shows how realistic lesson about validating feature engineering pipelines rather than trusting a headline metric.
 
 The LSTM produced a more believable and interpretable error profile (RMSE ≈ 18 Mbps against a mean of ~167 Mbps, roughly 11% typical error), showing it captured meaningful temporal structure without any leakage risk. The ARIMA model provided a solid classical baseline and confirmed the series was stationary, which validated the assumptions needed for a well-specified ARIMA model.
 
-**Takeaway:** more complex models aren't automatically better — the real skill demonstrated in this lab was diagnosing *why* a model's results looked too good to be true, and understanding what each modeling family (statistical vs. engineered-feature vs. deep learning) is suited for.
+
