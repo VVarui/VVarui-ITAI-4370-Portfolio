@@ -1,4 +1,4 @@
-# Lab 5: Edge Computing — Model Compression for IoT Deployment
+# Lab 5: Edge Computing: Model Compression for IoT Deployment
 
 **Notebook:** [`lab5-edge-model-optimization.ipynb`](../labs/lab5-edge-model-optimization.ipynb)
 
