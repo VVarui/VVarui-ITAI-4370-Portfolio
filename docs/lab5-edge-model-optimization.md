@@ -28,6 +28,6 @@ AI models trained in the cloud are often too large and slow for deployment on re
 - **Edge gateways:** Pruned or distilled models: a balance of accuracy and efficiency, suited to industrial IoT and smart-city gateways.
 
 ## Interpretation
-The most striking result was that **pruning slightly improved accuracy (93.75% → 93.80%) while cutting model size by roughly 73%** and reducing inference time by about 13%. This shows that a large model isn't automatically a more accurate one.
+The most surprising result was that **pruning slightly improved accuracy (93.75% ---> 93.80%) while cutting model size by roughly 73%** and reducing inference time by about 13%. This shows that a large model =/= a more accurate one.
 
 Distillation achieved the most extreme compression (10x fewer parameters than baseline) at the cost of about 2.3 percentage points of accuracy, which is an acceptable tradeoff for constrained devices where model size and power are the binding constraint rather than raw accuracy. This lab connected directly to the telecom/AI theme of the course: as networks push more intelligence to the edge (5G edge computing, smart sensors), understanding these accuracy-vs-efficiency tradeoffs is essential for real deployment decisions.
