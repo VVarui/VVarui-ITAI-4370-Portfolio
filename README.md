@@ -40,13 +40,6 @@ Each documentation page includes: **problem statement → methods and tools → 
 
 ---
 
-## Assessment Artifacts
-
-*Add quizzes, assignments, case studies, or other graded/practical work here as they're completed.*
-
-| Item | Description | Link |
-|---|---|---|
-| — | — | — |
 
 ---
 
